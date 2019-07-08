@@ -10,23 +10,11 @@
                         
 
                         <?php
-
-                        // $user = new User();
-                        // $user->username = 'Ozzie';
-                        // $user->password = "Ironman";
-                        // $user->first_name = 'Ozzie';
-                        // $user->last_name = 'Ozborne';
-                        // $user->save();
-
-                        // $user = new User();
-                        // $user->username = 'nchomksy';
-                        // $user->password = "pizza";
-                        // $user->first_name = 'noam';
-                        // $user->last_name = 'chomsky';
-                        // $user->save();
-
-                         $users = User::find_all();
-                         print_r($users);
+                        $users = User::find_all();
+                        //print_r($users);
+                        foreach ($users as $user) {
+                            echo $user->username . "<br>";
+                        }
                         
 
                         ?>
