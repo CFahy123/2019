@@ -18,18 +18,19 @@
                         // $user->last_name = 'Ozborne';
                         // $user->save();
 
-                        $user = User::find_user_by_id(9);
-                        $user->username = 'Ozzie2';
-                        $user->password = "Ironman2";
-                        $user->first_name = 'Ozzie2';
-                        $user->last_name = 'Ozborne2';
+                        $user = new User();
+                        $user->username = 'nchomksy';
+                        $user->password = "pizza";
+                        $user->first_name = 'noam';
+                        $user->last_name = 'chomsky';
                         $user->save();
 
-                        // $user = User::find_user_by_id(4);
-                        // $user->delete();
-
-
-
+                        // $user = User::find_user_by_id(5);
+                        // $user->username = 'Larry Legend';
+                        // $user->password = "123";
+                        // $user->first_name = 'larry';
+                        // $user->last_name = 'bird';
+                        // $user->update();
 
                         ?>
                         <ol class="breadcrumb">
