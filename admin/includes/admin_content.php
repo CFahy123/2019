@@ -12,17 +12,21 @@
                         <?php
 
                         // $user = new User();
-                        // $user->username = 'Q-Tip';
+                        // $user->username = 'Ozzie';
+                        // $user->password = "Ironman";
+                        // $user->first_name = 'Ozzie';
+                        // $user->last_name = 'Ozborne';
                         // $user->save();
 
-                        // $user = User::find_user_by_id(7);
-                        // $user->password = "ATCQ";
-                        // $user->first_name = 'Jonathan';
-                        // $user->last_name = 'Davis';
-                        // $user->save();
+                        $user = User::find_user_by_id(9);
+                        $user->username = 'Ozzie2';
+                        $user->password = "Ironman2";
+                        $user->first_name = 'Ozzie2';
+                        $user->last_name = 'Ozborne2';
+                        $user->save();
 
-                         
-
+                        // $user = User::find_user_by_id(4);
+                        // $user->delete();
 
 
 
