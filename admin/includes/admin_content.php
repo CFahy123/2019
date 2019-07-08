@@ -11,30 +11,22 @@
 
                         <?php
 
-                        //  $new_user = new User();
-                        //  $new_user->username = "theAnswer";
-                        //  $new_user->password = "sixers";
-                        //  $new_user->first_name = "Allen";
-                        //  $new_user->last_name = "Iverson";
+                        // $user = new User();
+                        // $user->username = 'Q-Tip';
+                        // $user->save();
 
-                        // $new_user->create();
+                        // $user = User::find_user_by_id(7);
+                        // $user->password = "ATCQ";
+                        // $user->first_name = 'Jonathan';
+                        // $user->last_name = 'Davis';
+                        // $user->save();
 
-                        // $user = User::find_user_by_id(1);
-                        // $user->last_name ="Williams";
-                        // $user->update();
-
-                        // $sql = "DELETE FROM users WHERE id= " . 5;
-                        // echo $sql;
-
-                        $user = User::find_user_by_id(3);
-                        $user->delete();
+                         
 
 
 
-                        
-            
 
-                
+
                         ?>
                         <ol class="breadcrumb">
                             <li>
