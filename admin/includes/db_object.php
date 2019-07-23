@@ -117,11 +117,6 @@ class Db_object {
         return (mysqli_affected_rows($database->connection) == 1) ? true : false;
     }
 
-    
-
-
-
-
 }
 
 
